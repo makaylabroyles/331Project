@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import AddEntry from '../AddEntry.jsx';
 import CurrentEntries from '../CurrentEntries.jsx';
-import Footer from '../Footer.jsx'
+import MyGitHub from '../MyGitHub.jsx';
+import Footer from '../Footer-Broyles.jsx'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <CurrentEntries />
       <hr />
       <Footer />
+        <MyGitHub></MyGitHub>
     </div>
   )
 }
